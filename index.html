@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qweather-icons@1.6.0/font/qweather-icons.css">
+<script src="weather.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+<div id="home" class="homeone">
+<header id="header" class="tupian1">
+<img src="WWY_SunshineGirl_DesktopHeader_EN.jpg"  alt=""/> </header>
+</div>
+<div id="home1" class="hometwo">
+<div id="main" class="sun1">
+ <h1>100%晴女</h1>
+ <p>你希望下一次活动雨停了吗？</p>
+ <p>在下面提出请求，100%阳光女孩会给你带来好天气！</p>
+  <img src="sunny_sun.gif"  alt=""/> 
+</div>
+<div id="one" class="sun2">
+	<h1>什么是阳光女孩</h1>
+	<p>阳光女孩（晴れ女 hare-onna）只需祈祷即可止雨和晴空。<br><br>为您的下一次活动聘请 100% 阳光女孩！</p>
+</div>
+
+<div id="messageTable" class="sun3">
+  <h1>最新请求</h1>
+   <div id="messageBody">
+  <!-- Message divs will be added dynamically here -->
+    </div>
+    </div>
+	
+<div id="messageForm" class="sun4">
+        <h1>提出请求</h1>
+        <form id="newMessageForm">
+            <label for="sender" class="nc">昵称*</label>
+            <input type="text" id="sender" required>
+           <label for="messageText" class="nc">你需要请求什么呢😊</label>
+            <textarea id="messageText" rows="4" required></textarea>
+             <button type="button" class="tj" onclick="submitMessage()">提交请求</button>
+        </form>
+    </div>
+<div id="wea" class="sun5">
+	<h1>预测天气</h1>
+	<div class="weather-container" id="weatherContainer">
+        <div class="day">星期一</div>
+        <div class="weather" ></div>
+
+        <div class="day">星期二</div>
+        <div class="weather"></div>
+
+        <div class="day">星期三</div>
+        <div class="weather"></div>
+
+        <div class="day">星期四</div>
+        <div class="weather"></div>
+
+        <div class="day">星期五</div>
+        <div class="weather"></div>
+
+        <div class="day">星期六</div>
+        <div class="weather"></div>
+
+        <div class="day">星期天</div>
+        <div class="weather"></div>
+    </div>
+	</div>
+	</div>
+	
+
+</body>
+</html>
